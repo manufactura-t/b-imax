@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: rgb(140, 169, 191);
+    text-align: center;
+}
+.logo{
+    width: 30px;
+}
+.contSup{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(33, 34, 35);
+}
+.btn-link{
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(226, 245, 243);
+    background: none;
+    border: none;
+}
+.imgCent{
+    width: 100%;
+    text-align: center;
+}
+.centCont{
+    width: 70%;
+}
+.info{
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    background-color: #fff;
+}
+.equipo{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border-radius: 30px;
+    background-color: rgb(98, 144, 168);
+}
+.proyectos{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border-radius: 30px;
+    background-color: rgb(112, 171, 202);
+    opacity: 90%;
+}
+span, li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    list-style: none;
+}
+.prod{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border-radius: 30px;
+    background-color: rgb(224, 236, 241);
+}
+.prodImg{
+    width: 90%;
+}
+
+
+
+/* Estilos Generales del Footer */
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 20px 20px 20px;
+  font-family: sans-serif;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.footer-column {
+  flex: 1 1 220px;
+}
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #00adb5;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #888888;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Alinea las columnas verticalmente */
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+    display: flex;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+.btn-link:hover{
+  color: #00adb5;
+}
