@@ -20,6 +20,6 @@ function datosCont(){
         icon: "info",
         theme: "dark",
         title: "Datos de contacto",
-        html: '<span>Tel. B-IMAX: </span><a href="tel:+527225851077" style="color:white">7225851077</a> <br> <span>Email: </span><a href="mailto:ejc17099405@gmail.com" style="color: white">ejc17099405@gmail.com</a> <br> <span>Soporte Tecnico: </span><a href="mailto:zgfiodor@gmail.com" style="color: white">zgfiodor@gmail.com</a>'
+        html: '<span>Tel. B-IMAX: </span><a href="tel:+527229388981" style="color:white">7229388981</a> <br> <span>Email B-IMAX: </span><a href="mailto:b-imax.manufactura@hotmail.com" style="color: white">b-imax.manufactura@hotmail.com</a> <br> <span>Soporte Tecnico: </span><a href="mailto:zgfiodor@gmail.com" style="color: white">zgfiodor@gmail.com</a>'
     })
 }
